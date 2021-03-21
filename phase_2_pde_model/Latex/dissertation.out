@@ -1,0 +1,28 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.2}{Building the model}{}% 2
+\BOOKMARK [2][-]{subsection.2.1}{Aims}{section.2}% 3
+\BOOKMARK [2][-]{subsection.2.2}{Assumptions}{section.2}% 4
+\BOOKMARK [2][-]{subsection.2.3}{PDE model}{section.2}% 5
+\BOOKMARK [2][-]{subsection.2.4}{Discretisation}{section.2}% 6
+\BOOKMARK [3][-]{subsubsection.2.4.1}{Discrete events}{subsection.2.4}% 7
+\BOOKMARK [3][-]{subsubsection.2.4.2}{ODE model}{subsection.2.4}% 8
+\BOOKMARK [2][-]{subsection.2.5}{Combining infections}{section.2}% 9
+\BOOKMARK [2][-]{subsection.2.6}{Solving numerically}{section.2}% 10
+\BOOKMARK [2][-]{subsection.2.7}{Discussion}{section.2}% 11
+\BOOKMARK [1][-]{section.3}{Estimating parameters}{}% 12
+\BOOKMARK [2][-]{subsection.3.1}{Loss of maternal immunity}{section.3}% 13
+\BOOKMARK [2][-]{subsection.3.2}{Vaccination schedules}{section.3}% 14
+\BOOKMARK [2][-]{subsection.3.3}{Population parameters}{section.3}% 15
+\BOOKMARK [2][-]{subsection.3.4}{Disease parameters}{section.3}% 16
+\BOOKMARK [2][-]{subsection.3.5}{Waning of vaccine derived immunity}{section.3}% 17
+\BOOKMARK [2][-]{subsection.3.6}{Cost of infection and vaccination}{section.3}% 18
+\BOOKMARK [2][-]{subsection.3.7}{Initial conditions}{section.3}% 19
+\BOOKMARK [2][-]{subsection.3.8}{Discussion}{section.3}% 20
+\BOOKMARK [1][-]{section.4}{Results}{}% 21
+\BOOKMARK [2][-]{subsection.4.1}{Comparison of initial conditions to reality}{section.4}% 22
+\BOOKMARK [2][-]{subsection.4.2}{Without waning of vaccine derived immunity}{section.4}% 23
+\BOOKMARK [2][-]{subsection.4.3}{Including waning of vaccine derived immunity}{section.4}% 24
+\BOOKMARK [1][-]{section.5}{Conclusion}{}% 25
+\BOOKMARK [1][-]{section*.31}{Acknowledgements}{}% 26
+\BOOKMARK [1][-]{section*.32}{References}{}% 27
+\BOOKMARK [1][-]{section*.34}{Appendix}{}% 28

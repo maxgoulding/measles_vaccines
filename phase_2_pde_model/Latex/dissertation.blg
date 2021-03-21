@@ -1,0 +1,15 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: dissertation.aux
+The style file: plain.bst
+Database file #1: references.bib
+Repeated entry---line 496 of file references.bib
+ : @article{huang2006age
+ :                      ,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 752 of file references.bib
+ :   
+ :   publisher={Oxford University Press, 0xford}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--empty journal in mystudy2012
+Warning--empty publisher in anderson1991infectioustable
+(There were 2 error messages)

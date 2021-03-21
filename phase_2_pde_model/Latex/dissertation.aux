@@ -1,0 +1,435 @@
+\relax 
+\providecommand{\transparent@use}[1]{}
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand\HyperFirstAtBeginDocument{\AtBeginDocument}
+\HyperFirstAtBeginDocument{\ifx\hyper@anchor\@undefined
+\global\let\oldcontentsline\contentsline
+\gdef\contentsline#1#2#3#4{\oldcontentsline{#1}{#2}{#3}}
+\global\let\oldnewlabel\newlabel
+\gdef\newlabel#1#2{\newlabelxx{#1}#2}
+\gdef\newlabelxx#1#2#3#4#5#6{\oldnewlabel{#1}{{#2}{#3}}}
+\AtEndDocument{\ifx\hyper@anchor\@undefined
+\let\contentsline\oldcontentsline
+\let\newlabel\oldnewlabel
+\fi}
+\fi}
+\global\let\hyper@last\relax 
+\gdef\HyperFirstAtBeginDocument#1{#1}
+\providecommand\HyField@AuxAddToFields[1]{}
+\providecommand\HyField@AuxAddToCoFields[2]{}
+\citation{whomeasles}
+\citation{whoincidencedatabase}
+\citation{nhschoicesmeasles}
+\citation{gregg1941congenital}
+\citation{nhschoicesrubella}
+\citation{nhschoicesmumpscomplications}
+\citation{nhschoicesmumps}
+\citation{hpanotifiablediseases}
+\citation{stewart2006history}
+\citation{whosmallpoxfactsheet}
+\citation{faorinderpesteradication}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{1}{section.1}}
+\newlabel{sec:introduction}{{1}{1}{Introduction}{section.1}{}}
+\citation{hinman2004economic}
+\citation{peltola1994elimination}
+\citation{panagiotopoulos1999increase}
+\citation{leuridan2010early}
+\citation{lebaron2007measlespersistence}
+\citation{hpaimmunistationcoverage}
+\citation{lebaron2009mumpspersistence}
+\citation{lebaron2009rubellapersistence}
+\citation{pebody2001seroepidemiology}
+\citation{hpaimmunistationcoverage}
+\citation{cohen2007vaccine}
+\citation{orenstein2004evolution}
+\citation{cohen2007vaccine}
+\citation{nhschoicesvaccinationmmr}
+\citation{nhschoicesvaccinationdates}
+\citation{vaccinationcoverage2011}
+\citation{hpameaslesnotificationsbyage}
+\citation{hpamumpsnotificationsbyage}
+\citation{hparubellanotificationsbyage}
+\citation{hpammrconfirmedcases}
+\citation{mclean2005mathematical}
+\citation{lebaron2007measlespersistence}
+\citation{lebaron2009rubellapersistence}
+\citation{lebaron2009mumpspersistence}
+\citation{davidkin2008persistence}
+\citation{erickson2005analytical}
+\citation{gans2003measles}
+\citation{glezen2003effect}
+\citation{gans2003measles}
+\citation{naniche2009human}
+\citation{hviid2008mumps}
+\citation{miller1990rubella}
+\citation{baum2008cares}
+\@writefile{toc}{\contentsline {section}{\numberline {2}Building the model}{4}{section.2}}
+\newlabel{sec:buildmodel}{{2}{4}{Building the model}{section.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}Aims}{4}{subsection.2.1}}
+\newlabel{subsec:buildmodelaims}{{2.1}{4}{Aims}{subsection.2.1}{}}
+\citation{anderson1985age}
+\citation{keeling2011modeling}
+\citation{mystudy2012}
+\citation{carabin2003future}
+\citation{pelletier1998benefit}
+\citation{mystudy2012}
+\citation{leuridan2010early}
+\citation{leuridan2011kinetics}
+\citation{leuridan2012maternal}
+\citation{leuridan2010early}
+\citation{goncalves1999transplacental}
+\citation{anderson1985age}
+\citation{schenzle1984age}
+\citation{levin2011global}
+\citation{naniche2009human}
+\citation{hviid2008mumps}
+\citation{banatvala2004rubella}
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Model state variables\relax }}{6}{table.caption.2}}
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{tab:modelstatevariables}{{1}{6}{Model state variables\relax }{table.caption.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}Assumptions}{6}{subsection.2.2}}
+\newlabel{subsec:buildmodelassumptions}{{2.2}{6}{Assumptions}{subsection.2.2}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces PDE model parameters\relax }}{7}{table.caption.3}}
+\newlabel{tab:parameters}{{2}{7}{PDE model parameters\relax }{table.caption.3}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Vaccination gate function example. The first dose of vaccine is administered to 95\% of the population at 1 year of age and the second dose is administered at 5 years of age to 80\% of those who received the first dose of vaccine. Consequently the proportion of the population that have received one dose of vaccine between 1--5 years of age is 95\% and from 5 years of age onwards is 19\%. The proportion of the population that have received two doses of vaccine from 5 years of age onwards is 76\%.\relax }}{9}{figure.caption.4}}
+\newlabel{fig:establishingparametersgatefunctionexample}{{1}{9}{Vaccination gate function example. The first dose of vaccine is administered to 95\% of the population at 1 year of age and the second dose is administered at 5 years of age to 80\% of those who received the first dose of vaccine. Consequently the proportion of the population that have received one dose of vaccine between 1--5 years of age is 95\% and from 5 years of age onwards is 19\%. The proportion of the population that have received two doses of vaccine from 5 years of age onwards is 76\%.\relax }{figure.caption.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3}PDE model}{10}{subsection.2.3}}
+\newlabel{subsec:buildmodelpdemodel}{{2.3}{10}{PDE model}{subsection.2.3}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Diagram of the PDE model. $\phi _i$ are the age dependent gate functions described in \autoref  {fig:establishingparametersgatefunctionexample}\relax }}{11}{figure.caption.5}}
+\newlabel{fig:pdediseasemodel}{{2}{11}{Diagram of the PDE model. $\phi _i$ are the age dependent gate functions described in \autoref {fig:establishingparametersgatefunctionexample}\relax }{figure.caption.5}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.4}Discretisation}{11}{subsection.2.4}}
+\newlabel{subsec:buildmodeldiscretisation}{{2.4}{11}{Discretisation}{subsection.2.4}{}}
+\citation{schenzle1984age}
+\citation{keeling2011modeling}
+\citation{levin2011global}
+\citation{schenzle1984age}
+\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces Summary of the events occurring within the discretised model\relax }}{12}{table.caption.6}}
+\newlabel{tab:modelevents}{{3}{12}{Summary of the events occurring within the discretised model\relax }{table.caption.6}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.4.1}Discrete events}{12}{subsubsection.2.4.1}}
+\newlabel{subsubsec:buildmodeldiscreteevents}{{2.4.1}{12}{Discrete events}{subsubsection.2.4.1}{}}
+\citation{huang2006age}
+\citation{huang2006age}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.4.2}ODE model}{14}{subsubsection.2.4.2}}
+\newlabel{subsubsec:buildmodelodemodel}{{2.4.2}{14}{ODE model}{subsubsection.2.4.2}{}}
+\citation{suli2010NSDEnotes}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.5}Combining infections}{15}{subsection.2.5}}
+\newlabel{subsec:buildmodelcombination}{{2.5}{15}{Combining infections}{subsection.2.5}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.6}Solving numerically}{15}{subsection.2.6}}
+\newlabel{subsec:buildmodelsolve}{{2.6}{15}{Solving numerically}{subsection.2.6}{}}
+\citation{vaccinationcoverage2012}
+\citation{glass2003antibody}
+\citation{goncalves1999transplacental}
+\citation{leuridan2010early}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.7}Discussion}{16}{subsection.2.7}}
+\newlabel{subsec:buildmodeldiscussion}{{2.7}{16}{Discussion}{subsection.2.7}{}}
+\citation{glass2003antibody}
+\citation{glass2003antibody}
+\citation{leuridan2010early}
+\citation{leuridan2011kinetics}
+\citation{leuridan2012maternal}
+\citation{eurosurveillancemeaslesbelgium}
+\citation{hpaimmunistationcoverage}
+\citation{theeten2011we}
+\citation{hpaimmunistationcoverage}
+\citation{theeten2011we}
+\citation{pebody2001seroepidemiology}
+\citation{theeten2011we}
+\citation{hpaimmunistationcoverage}
+\citation{theeten2011we}
+\citation{cohen2007vaccine}
+\citation{eurosurveillancemeaslesbelgium}
+\citation{nhschoicesvaccinationmmr}
+\citation{nhschoicesvaccinationdates}
+\citation{eurosurveillancemeaslesbelgium}
+\citation{nhschoicesvaccinationmmr}
+\citation{nhschoicesvaccinationdates}
+\citation{whoimmunizationprofilebelgium}
+\citation{vaccinationcoverage2011}
+\citation{whoimmunizationprofilebelgium}
+\citation{vaccinationcoverage2011}
+\citation{mossong2008social}
+\citation{worldfactbookbelgium}
+\citation{worldfactbookuk}
+\citation{hpaimmunistationcoverage}
+\citation{leuridan2010early}
+\@writefile{toc}{\contentsline {section}{\numberline {3}Estimating parameters}{18}{section.3}}
+\newlabel{sec:estimateparameters}{{3}{18}{Estimating parameters}{section.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Loss of maternal immunity}{18}{subsection.3.1}}
+\newlabel{subsec:estimateparameterslossofmaternal}{{3.1}{18}{Loss of maternal immunity}{subsection.3.1}{}}
+\citation{leuridan2010early}
+\citation{leuridan2011kinetics}
+\citation{leuridan2012maternal}
+\citation{leuridan2010early}
+\citation{leuridan2011kinetics}
+\citation{leuridan2012maternal}
+\citation{leuridan2010early}
+\citation{leuridan2011kinetics}
+\citation{leuridan2012maternal}
+\citation{leuridan2010early}
+\citation{lebaron2007measlespersistence}
+\citation{lebaron2009mumpspersistence}
+\citation{baum2008cares}
+\@writefile{lot}{\contentsline {table}{\numberline {4}{\ignorespaces Comparison of vaccination against MMR in Belgium and United Kingdom\relax }}{19}{table.caption.7}}
+\newlabel{tab:ukbelgiumcomparison}{{4}{19}{Comparison of vaccination against MMR in Belgium and United Kingdom\relax }{table.caption.7}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Vaccination schedules}{19}{subsection.3.2}}
+\newlabel{subsec:estimateparametersvaccination}{{3.2}{19}{Vaccination schedules}{subsection.3.2}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {5}{\ignorespaces Proportion of infants losing protective maternal immunity on entry into an age group. Linear binomial regression fitted to data from Lauriden et al.\cite  {leuridan2010early,leuridan2011kinetics,leuridan2012maternal}.\relax }}{20}{table.caption.8}}
+\newlabel{tab:estimateparametersmaintainingmaternalimmunity}{{5}{20}{Proportion of infants losing protective maternal immunity on entry into an age group. Linear binomial regression fitted to data from Lauriden et al.\cite {leuridan2010early,leuridan2011kinetics,leuridan2012maternal}.\relax }{table.caption.8}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {6}{\ignorespaces Vaccination schedules compared within this study.\relax }}{20}{table.caption.9}}
+\newlabel{tab:estimateparametervaccinationschedules}{{6}{20}{Vaccination schedules compared within this study.\relax }{table.caption.9}{}}
+\citation{worldfactbookuk}
+\citation{levin2011global}
+\citation{anderson1985age}
+\citation{keeling2011modeling}
+\citation{edmunds2000pre}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Population parameters}{21}{subsection.3.3}}
+\newlabel{subsec:estimateparameterspopulation}{{3.3}{21}{Population parameters}{subsection.3.3}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Proportion of a cohort still alive as the cohort ages. A comparison of an exponentially distributed death rate against the mixed death rate $\alpha (a)$.\relax }}{21}{figure.caption.11}}
+\newlabel{fig:estimateparametersdeathcdf}{{3}{21}{Proportion of a cohort still alive as the cohort ages. A comparison of an exponentially distributed death rate against the mixed death rate $\alpha (a)$.\relax }{figure.caption.11}{}}
+\citation{mossong2008social}
+\citation{nhschoicesmeasles}
+\citation{nhschoicesmumps}
+\citation{nhschoicesrubella}
+\citation{mossong2008social}
+\citation{mossong2008social}
+\citation{anderson1982directly}
+\citation{lebaron2007measlespersistence}
+\citation{lebaron2009mumpspersistence}
+\citation{lebaron2009rubellapersistence}
+\citation{davidkin2008persistence}
+\citation{davidkin2008persistence}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4}Disease parameters}{23}{subsection.3.4}}
+\newlabel{subsec:estimateparametersdisease}{{3.4}{23}{Disease parameters}{subsection.3.4}{}}
+\citation{davidkin2008persistence}
+\citation{davidkin2008persistence}
+\citation{carabin2003cost}
+\citation{carabin2002average}
+\@writefile{lot}{\contentsline {table}{\numberline {7}{\ignorespaces Disease parameters.\relax }}{24}{table.caption.12}}
+\newlabel{tab:estimateparameterdiseaseparameters}{{7}{24}{Disease parameters.\relax }{table.caption.12}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.5}Waning of vaccine derived immunity}{24}{subsection.3.5}}
+\newlabel{subsec:estimateparameterswaning}{{3.5}{24}{Waning of vaccine derived immunity}{subsection.3.5}{}}
+\citation{carabin2002average}
+\citation{beutels2002difficult}
+\citation{carabin2002average}
+\citation{hinman2004economic}
+\citation{white1985benefits}
+\citation{pelletier1998benefit}
+\citation{pelletier1998benefit}
+\citation{carabin2002average}
+\citation{pelletier1998benefit}
+\@writefile{lot}{\contentsline {table}{\numberline {8}{\ignorespaces Parameters for the waning of vaccine derived immunity. The percentage still immune after a period of time for those whom vaccine was successful.\relax }}{25}{table.caption.13}}
+\newlabel{tab:estimatewaningimmunity}{{8}{25}{Parameters for the waning of vaccine derived immunity. The percentage still immune after a period of time for those whom vaccine was successful.\relax }{table.caption.13}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.6}Cost of infection and vaccination}{25}{subsection.3.6}}
+\newlabel{subsec:estimateparameterscost}{{3.6}{25}{Cost of infection and vaccination}{subsection.3.6}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {9}{\ignorespaces Cost per case of MMR and CRS rounded to the nearest \$.\relax }}{25}{table.caption.14}}
+\newlabel{tab:estimateparametercosts}{{9}{25}{Cost per case of MMR and CRS rounded to the nearest \$.\relax }{table.caption.14}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.7}Initial conditions}{25}{subsection.3.7}}
+\newlabel{subsec:estimateparametersinitialconditions}{{3.7}{25}{Initial conditions}{subsection.3.7}{}}
+\citation{levin2011global}
+\citation{mossong2008social}
+\citation{anderson1985age}
+\citation{anderson1991infectioustable}
+\citation{anderson1991infectioustable}
+\@writefile{lot}{\contentsline {table}{\numberline {10}{\ignorespaces Stable age distribution.\relax }}{26}{table.caption.15}}
+\newlabel{tab:estimatewaningstableagedistribution}{{10}{26}{Stable age distribution.\relax }{table.caption.15}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {11}{\ignorespaces Disease attributes. The average age of infection calculated using $\frac  {L}{R_0}$. $L=80$, the life expectancy in the model. $R_0$ data taken from England and Wales in Anderson and May\cite  {anderson1991infectioustable}.\relax }}{26}{table.caption.16}}
+\newlabel{tab:estimatediseaseattributes}{{11}{26}{Disease attributes. The average age of infection calculated using $\frac {L}{R_0}$. $L=80$, the life expectancy in the model. $R_0$ data taken from England and Wales in Anderson and May\cite {anderson1991infectioustable}.\relax }{table.caption.16}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.8}Discussion}{27}{subsection.3.8}}
+\newlabel{subsec:estimateparametersdiscussion}{{3.8}{27}{Discussion}{subsection.3.8}{}}
+\citation{hpaimmunistationcoverage}
+\citation{census1951}
+\citation{census1961}
+\@writefile{toc}{\contentsline {section}{\numberline {4}Results}{28}{section.4}}
+\newlabel{sec:results}{{4}{28}{Results}{section.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Comparison of initial conditions to reality}{28}{subsection.4.1}}
+\newlabel{subsec:resultscomparison}{{4.1}{28}{Comparison of initial conditions to reality}{subsection.4.1}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces The number of susceptible individuals and new infections at each time step. The 50 years that the model is run prior the introduction of vaccination.\relax }}{29}{figure.caption.17}}
+\newlabel{fig:resultsmeaslesprevaccinaiton}{{4}{29}{The number of susceptible individuals and new infections at each time step. The 50 years that the model is run prior the introduction of vaccination.\relax }{figure.caption.17}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Force of infection for measles. No vaccination is the model after it has been run for 50 years without vaccination. Initial is the initial distribution after the replication of vaccination.\relax }}{29}{figure.caption.18}}
+\newlabel{fig:estimateparametersforceofinfection}{{5}{29}{Force of infection for measles. No vaccination is the model after it has been run for 50 years without vaccination. Initial is the initial distribution after the replication of vaccination.\relax }{figure.caption.18}{}}
+\citation{hpameasles2012cases}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Without waning of vaccine derived immunity}{30}{subsection.4.2}}
+\newlabel{subsec:resultsnowaning}{{4.2}{30}{Without waning of vaccine derived immunity}{subsection.4.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces The number of susceptible individuals and new infections at each time step within the model. The model is run for a period of 50 years. The first dose of vaccine is at 12 months and second dose is at 5 years. Vaccination coverage is 85\%.\relax }}{31}{figure.caption.19}}
+\newlabel{fig:resultsmeaslesnowaningdouble85}{{6}{31}{The number of susceptible individuals and new infections at each time step within the model. The model is run for a period of 50 years. The first dose of vaccine is at 12 months and second dose is at 5 years. Vaccination coverage is 85\%.\relax }{figure.caption.19}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces The total number of new infections occurring within each age group each year that the model is run. The model is run for a period of 50 years. The first dose of vaccine is at 12 months and second dose is at 5 years. Vaccination coverage is 85\%.\relax }}{31}{figure.caption.19}}
+\newlabel{fig:resultsyearlytotalinfectionsdouble85}{{7}{31}{The total number of new infections occurring within each age group each year that the model is run. The model is run for a period of 50 years. The first dose of vaccine is at 12 months and second dose is at 5 years. Vaccination coverage is 85\%.\relax }{figure.caption.19}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces The proportion of the infant population with protective maternal immunity (either in $M_V$ or $M_R$). No vaccination is after the model has run for 50 years without vaccination. Initial is at the initial conditions. After 30 years is 30 years after the initial conditions. The first dose of vaccine is at 12 months and second dose is at 5 years. Vaccination coverage is 85\%.\relax }}{32}{figure.caption.20}}
+\newlabel{fig:resultsmaternalimmunitymeaslesnowaningdouble85}{{8}{32}{The proportion of the infant population with protective maternal immunity (either in $M_V$ or $M_R$). No vaccination is after the model has run for 50 years without vaccination. Initial is at the initial conditions. After 30 years is 30 years after the initial conditions. The first dose of vaccine is at 12 months and second dose is at 5 years. Vaccination coverage is 85\%.\relax }{figure.caption.20}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces The number of infants infected during an epidemic year. No vaccination is an epidemic after the model has run for approximately 50 years without vaccination. Initial is year 0 after initial conditions, the first epidemic after the initial conditions. After 30 years is epidemic year 35 after initial conditions, the first epidemic after 30 years. The first dose of vaccine is at 12 months and second dose is at 5 years. Vaccination coverage is 85\%.\relax }}{32}{figure.caption.20}}
+\newlabel{fig:resultsinfectionininfantsnowanedouble85}{{9}{32}{The number of infants infected during an epidemic year. No vaccination is an epidemic after the model has run for approximately 50 years without vaccination. Initial is year 0 after initial conditions, the first epidemic after the initial conditions. After 30 years is epidemic year 35 after initial conditions, the first epidemic after 30 years. The first dose of vaccine is at 12 months and second dose is at 5 years. Vaccination coverage is 85\%.\relax }{figure.caption.20}{}}
+\citation{hpameaslesnotificationsanddeaths}
+\@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces The number of susceptible individuals and new infections at each time step within the model. The model is run for a period of 50 years. The first dose of vaccine is at 12 months and second dose is at 5 years. Vaccination coverage is 95\%.\relax }}{34}{figure.caption.21}}
+\newlabel{fig:resultsmeaslesnowaningdouble95}{{10}{34}{The number of susceptible individuals and new infections at each time step within the model. The model is run for a period of 50 years. The first dose of vaccine is at 12 months and second dose is at 5 years. Vaccination coverage is 95\%.\relax }{figure.caption.21}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {11}{\ignorespaces The number of susceptible individuals within each age group at each year the model is run. The model is run for a period of 50 years. The first dose of vaccine is at 12 months and second dose is at 5 years. Vaccination coverage is 95\%.\relax }}{34}{figure.caption.21}}
+\newlabel{fig:resultssusceptibles3double95}{{11}{34}{The number of susceptible individuals within each age group at each year the model is run. The model is run for a period of 50 years. The first dose of vaccine is at 12 months and second dose is at 5 years. Vaccination coverage is 95\%.\relax }{figure.caption.21}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {12}{\ignorespaces The cost of the current vaccination schedule varying vaccination coverage. First dose is at 12 months and second dose is at 5 years. No waning of vaccine derived immunity.\relax }}{36}{figure.caption.22}}
+\newlabel{fig:resultscostnowaningcurrent}{{12}{36}{The cost of the current vaccination schedule varying vaccination coverage. First dose is at 12 months and second dose is at 5 years. No waning of vaccine derived immunity.\relax }{figure.caption.22}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {13}{\ignorespaces Comparison of the total cost of vaccination schemes varying vaccination coverage. Dashed lines are single dose vaccination schemes and solid lines are double dose vaccination schemes. No waning of vaccine derived immunity.\relax }}{36}{figure.caption.22}}
+\newlabel{fig:resultscostnowaningcomparison}{{13}{36}{Comparison of the total cost of vaccination schemes varying vaccination coverage. Dashed lines are single dose vaccination schemes and solid lines are double dose vaccination schemes. No waning of vaccine derived immunity.\relax }{figure.caption.22}{}}
+\citation{cdcmeasleselimination}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Including waning of vaccine derived immunity}{37}{subsection.4.3}}
+\newlabel{subsec:resultswaning}{{4.3}{37}{Including waning of vaccine derived immunity}{subsection.4.3}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {14}{\ignorespaces The number of susceptible individuals and new infections at each time step within the model. The model is run for a period of 50 years. The first dose of vaccine is at 12 months and second dose is at 5 years. Vaccination coverage is 85\%. Waning of vaccine derived immunity is included.\relax }}{37}{figure.caption.23}}
+\newlabel{fig:resultsmeasleswaningdouble85}{{14}{37}{The number of susceptible individuals and new infections at each time step within the model. The model is run for a period of 50 years. The first dose of vaccine is at 12 months and second dose is at 5 years. Vaccination coverage is 85\%. Waning of vaccine derived immunity is included.\relax }{figure.caption.23}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {15}{\ignorespaces The number of infections occurring over the 50 year period. The data is broken down into age group and the number of doses of vaccine received when exposed. The first dose of vaccine is at 12 months and second dose is at 5 years. Vaccination coverage is 85\%.\relax }}{38}{figure.caption.24}}
+\newlabel{fig:resultsinfectiondosesbreakdowndouble85}{{15}{38}{The number of infections occurring over the 50 year period. The data is broken down into age group and the number of doses of vaccine received when exposed. The first dose of vaccine is at 12 months and second dose is at 5 years. Vaccination coverage is 85\%.\relax }{figure.caption.24}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {16}{\ignorespaces The number of susceptible individuals and new infections at each time step within the model. The model is run for a period of 50 years. The first dose of vaccine is at 12 months and second dose is at 5 years. Vaccination coverage is 95\%. Waning of vaccine derived immunity is included.\relax }}{39}{figure.caption.25}}
+\newlabel{fig:resultsmeasleswaningdouble95}{{16}{39}{The number of susceptible individuals and new infections at each time step within the model. The model is run for a period of 50 years. The first dose of vaccine is at 12 months and second dose is at 5 years. Vaccination coverage is 95\%. Waning of vaccine derived immunity is included.\relax }{figure.caption.25}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {17}{\ignorespaces The number of susceptible individuals and new infections at each time step within the model. The model is run for a period of 50 years. The first dose of vaccine is at 12 months. Vaccination coverage is 95\%. Waning of vaccine derived immunity is included.\relax }}{39}{figure.caption.25}}
+\newlabel{fig:resultsmeasleswaningsingle95}{{17}{39}{The number of susceptible individuals and new infections at each time step within the model. The model is run for a period of 50 years. The first dose of vaccine is at 12 months. Vaccination coverage is 95\%. Waning of vaccine derived immunity is included.\relax }{figure.caption.25}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {18}{\ignorespaces The number of susceptible individuals and new infections at each time step within the model. The model is run for a period of 50 years. The first dose of vaccine is at 12 months, the second dose is at 5 years and third dose is at 18 years. Vaccination coverage is 95\%. Waning of vaccine derived immunity is included and the third dose of vaccine is assumed to bestow lifelong immunity.\relax }}{40}{figure.caption.26}}
+\newlabel{fig:resultsmeasleswaningtriple95}{{18}{40}{The number of susceptible individuals and new infections at each time step within the model. The model is run for a period of 50 years. The first dose of vaccine is at 12 months, the second dose is at 5 years and third dose is at 18 years. Vaccination coverage is 95\%. Waning of vaccine derived immunity is included and the third dose of vaccine is assumed to bestow lifelong immunity.\relax }{figure.caption.26}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {19}{\ignorespaces The cost of the current vaccination schedule varying vaccination coverage. First dose is at 12 months and second dose is at 5 years. Waning of vaccine derived immunity is included.\relax }}{41}{figure.caption.27}}
+\newlabel{fig:resultscostmeasleswaningdoublecurrent}{{19}{41}{The cost of the current vaccination schedule varying vaccination coverage. First dose is at 12 months and second dose is at 5 years. Waning of vaccine derived immunity is included.\relax }{figure.caption.27}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {20}{\ignorespaces Comparison of the total cost of double vaccination schedules varying vaccination coverage. The legend shows when the first dose of vaccine is administered. The second dose of vaccine is at 5 years. Waning of vaccine derived immunity is included.\relax }}{41}{figure.caption.28}}
+\newlabel{fig:resultscostmeasleswaningdouble}{{20}{41}{Comparison of the total cost of double vaccination schedules varying vaccination coverage. The legend shows when the first dose of vaccine is administered. The second dose of vaccine is at 5 years. Waning of vaccine derived immunity is included.\relax }{figure.caption.28}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {21}{\ignorespaces Comparison of the total cost of triple vaccination schedules varying vaccination coverage. The legend shows when the first dose of vaccine is administered. The second dose of vaccine is at 5 years and the third dose is at 18 years. Waning of vaccine derived immunity is included.\relax }}{42}{figure.caption.29}}
+\newlabel{fig:resultscostmeasleswaningtriple}{{21}{42}{Comparison of the total cost of triple vaccination schedules varying vaccination coverage. The legend shows when the first dose of vaccine is administered. The second dose of vaccine is at 5 years and the third dose is at 18 years. Waning of vaccine derived immunity is included.\relax }{figure.caption.29}{}}
+\citation{hpaimmunistationcoverage}
+\citation{vaccinationcoverage2012}
+\citation{vaccinationcoverage2012}
+\@writefile{lof}{\contentsline {figure}{\numberline {22}{\ignorespaces Comparison of the total cost of single, double and triple vaccination schemes varying vaccination coverage. Initial dose is at 12 months for all vaccination schedules. The second dose of vaccine is applied at 5 year for double and triple. The third dose is applied at 18 years. Waning of vaccine derived immunity is included.\relax }}{43}{figure.caption.30}}
+\newlabel{fig:costmeasleswaningsingledoubletriple}{{22}{43}{Comparison of the total cost of single, double and triple vaccination schemes varying vaccination coverage. Initial dose is at 12 months for all vaccination schedules. The second dose of vaccine is applied at 5 year for double and triple. The third dose is applied at 18 years. Waning of vaccine derived immunity is included.\relax }{figure.caption.30}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5}Conclusion}{43}{section.5}}
+\newlabel{sec:conclusion}{{5}{43}{Conclusion}{section.5}{}}
+\citation{mossong2008social}
+\citation{measleseuropeoutbreak2011}
+\@writefile{toc}{\contentsline {section}{Acknowledgements}{44}{section*.31}}
+\bibdata{references}
+\bibcite{mystudy2012}{1}
+\bibcite{anderson1991infectioustable}{2}
+\bibcite{anderson1982directly}{3}
+\bibcite{anderson1985age}{4}
+\bibcite{banatvala2004rubella}{5}
+\bibcite{baum2008cares}{6}
+\bibcite{beutels2002difficult}{7}
+\bibcite{carabin2003future}{8}
+\bibcite{carabin2003cost}{9}
+\bibcite{carabin2002average}{10}
+\bibcite{cdcmeasleselimination}{11}
+\bibcite{worldfactbookbelgium}{12}
+\bibcite{worldfactbookuk}{13}
+\bibcite{cohen2007vaccine}{14}
+\bibcite{davidkin2008persistence}{15}
+\bibcite{edmunds2000pre}{16}
+\bibcite{erickson2005analytical}{17}
+\bibcite{measleseuropeoutbreak2011}{18}
+\bibcite{eurosurveillancemeaslesbelgium}{19}
+\@writefile{toc}{\contentsline {section}{References}{45}{section*.32}}
+\bibcite{faorinderpesteradication}{20}
+\bibcite{census1951}{21}
+\bibcite{census1961}{22}
+\bibcite{gans2003measles}{23}
+\bibcite{glass2003antibody}{24}
+\bibcite{glezen2003effect}{25}
+\bibcite{goncalves1999transplacental}{26}
+\bibcite{gregg1941congenital}{27}
+\bibcite{hpammrconfirmedcases}{28}
+\bibcite{hpameaslesnotificationsanddeaths}{29}
+\bibcite{hpameaslesnotificationsbyage}{30}
+\bibcite{hpamumpsnotificationsbyage}{31}
+\bibcite{hparubellanotificationsbyage}{32}
+\bibcite{hpaimmunistationcoverage}{33}
+\bibcite{hpanotifiablediseases}{34}
+\bibcite{hpameasles2012cases}{35}
+\bibcite{hinman2004economic}{36}
+\bibcite{huang2006age}{37}
+\bibcite{hviid2008mumps}{38}
+\bibcite{keeling2011modeling}{39}
+\bibcite{lebaron2007measlespersistence}{40}
+\bibcite{lebaron2009mumpspersistence}{41}
+\bibcite{lebaron2009rubellapersistence}{42}
+\bibcite{leuridan2012maternal}{43}
+\bibcite{leuridan2011kinetics}{44}
+\bibcite{leuridan2010early}{45}
+\bibcite{levin2011global}{46}
+\bibcite{mclean2005mathematical}{47}
+\bibcite{miller1990rubella}{48}
+\bibcite{mossong2008social}{49}
+\bibcite{naniche2009human}{50}
+\bibcite{vaccinationcoverage2011}{51}
+\bibcite{vaccinationcoverage2012}{52}
+\bibcite{nhschoicesmeasles}{53}
+\bibcite{nhschoicesvaccinationmmr}{54}
+\bibcite{nhschoicesmumpscomplications}{55}
+\bibcite{nhschoicesmumps}{56}
+\bibcite{nhschoicesrubella}{57}
+\bibcite{nhschoicesvaccinationdates}{58}
+\bibcite{orenstein2004evolution}{59}
+\bibcite{panagiotopoulos1999increase}{60}
+\bibcite{pebody2001seroepidemiology}{61}
+\bibcite{pelletier1998benefit}{62}
+\bibcite{peltola1994elimination}{63}
+\bibcite{schenzle1984age}{64}
+\bibcite{stewart2006history}{65}
+\bibcite{suli2010NSDEnotes}{66}
+\bibcite{theeten2011we}{67}
+\bibcite{white1985benefits}{68}
+\bibcite{whoincidencedatabase}{69}
+\bibcite{whomeasles}{70}
+\bibcite{whosmallpoxfactsheet}{71}
+\bibcite{whoimmunizationprofilebelgium}{72}
+\bibstyle{plain}
+\citation{leuridan2010early}
+\citation{leuridan2011kinetics}
+\citation{leuridan2012maternal}
+\citation{leuridan2010early}
+\citation{leuridan2011kinetics}
+\citation{leuridan2012maternal}
+\citation{mossong2008social}
+\citation{mossong2008social}
+\citation{leuridan2010early}
+\citation{leuridan2011kinetics}
+\citation{leuridan2012maternal}
+\citation{leuridan2010early}
+\citation{leuridan2011kinetics}
+\citation{leuridan2012maternal}
+\citation{hpaimmunistationcoverage}
+\citation{hpaimmunistationcoverage}
+\citation{hpameaslesnotificationsanddeaths}
+\citation{hpameaslesnotificationsanddeaths}
+\citation{hpameaslesnotificationsanddeaths}
+\citation{hpameaslesnotificationsbyage}
+\citation{hpamumpsnotificationsbyage}
+\citation{hparubellanotificationsbyage}
+\citation{hpameaslesnotificationsanddeaths}
+\citation{hpameaslesnotificationsbyage}
+\citation{hpamumpsnotificationsbyage}
+\citation{hparubellanotificationsbyage}
+\citation{hpameaslesnotificationsanddeaths}
+\citation{hpameaslesnotificationsbyage}
+\citation{hpaimmunistationcoverage}
+\citation{hpameaslesnotificationsanddeaths}
+\citation{hpameaslesnotificationsbyage}
+\citation{hpaimmunistationcoverage}
+\newlabel{sec:appendix}{{5}{49}{Appendix}{section*.34}{}}
+\@writefile{toc}{\contentsline {section}{Appendix}{49}{section*.34}}
+\newlabel{fig:establishingparametersmeaslesvacc}{{23a}{49}{Subfigure 23a}{subfigure.23.1}{}}
+\newlabel{sub@fig:establishingparametersmeaslesvacc}{{(a)}{a}{Subfigure 23a\relax }{subfigure.23.1}{}}
+\newlabel{fig:establishingparametersmeaslesrec}{{23b}{49}{Subfigure 23b}{subfigure.23.2}{}}
+\newlabel{sub@fig:establishingparametersmeaslesrec}{{(b)}{b}{Subfigure 23b\relax }{subfigure.23.2}{}}
+\newlabel{fig:establishingparametersmumps}{{23c}{49}{Subfigure 23c}{subfigure.23.3}{}}
+\newlabel{sub@fig:establishingparametersmumps}{{(c)}{c}{Subfigure 23c\relax }{subfigure.23.3}{}}
+\newlabel{fig:establishingparametersrubella}{{23d}{49}{Subfigure 23d}{subfigure.23.4}{}}
+\newlabel{sub@fig:establishingparametersrubella}{{(d)}{d}{Subfigure 23d\relax }{subfigure.23.4}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {23}{\ignorespaces Proportion of infants with protective maternal immunity against specified diseases. Best fit is the linear binomial regression fitted to data from Leuridan et al.\cite  {leuridan2010early,leuridan2011kinetics,leuridan2012maternal}.\relax }}{49}{figure.caption.35}}
+\newlabel{fig:establishingparametersmaternalimmunity}{{23}{49}{Proportion of infants with protective maternal immunity against specified diseases. Best fit is the linear binomial regression fitted to data from Leuridan et al.\cite {leuridan2010early,leuridan2011kinetics,leuridan2012maternal}.\relax }{figure.caption.35}{}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {Measles (Vaccinated Mothers)}}}{49}{subfigure.23.1}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {Measles (Recovered Mothers)}}}{49}{subfigure.23.2}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(c)}{\ignorespaces {Mumps}}}{49}{subfigure.23.3}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(d)}{\ignorespaces {Rubella}}}{49}{subfigure.23.4}}
+\@writefile{lof}{\contentsline {figure}{\numberline {24}{\ignorespaces UK physical and non-physical contact matrix from Mossong et al.\cite  {mossong2008social}. The average number of contacts in a day.\relax }}{50}{figure.caption.36}}
+\newlabel{matrix:contactmatrix}{{24}{50}{UK physical and non-physical contact matrix from Mossong et al.\cite {mossong2008social}. The average number of contacts in a day.\relax }{figure.caption.36}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {12}{\ignorespaces Proportion of infants with protective maternal immunity against disease at age (months). Linear binomial regression fitted to Lauriden et al.\cite  {leuridan2010early,leuridan2011kinetics,leuridan2012maternal}\relax }}{50}{table.caption.37}}
+\newlabel{tab:estimateparametersmaternalimmunity}{{12}{50}{Proportion of infants with protective maternal immunity against disease at age (months). Linear binomial regression fitted to Lauriden et al.\cite {leuridan2010early,leuridan2011kinetics,leuridan2012maternal}\relax }{table.caption.37}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {13}{\ignorespaces Comparison of the average age of infection for MMR with varying $\kappa $. For measles at $\kappa = 0.01$ the disease is not infectious enough to sustain itself.\relax }}{50}{table.caption.38}}
+\newlabel{tab:kappacomparison}{{13}{50}{Comparison of the average age of infection for MMR with varying $\kappa $. For measles at $\kappa = 0.01$ the disease is not infectious enough to sustain itself.\relax }{table.caption.38}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {14}{\ignorespaces Vaccination coverage. Completed primary courses at two years of age: England and Wales, 1966 - 1977, England (only) 1978 onwards\cite  {hpaimmunistationcoverage}.\relax }}{51}{table.caption.39}}
+\newlabel{tab:vaccinationcoverage}{{14}{51}{Vaccination coverage. Completed primary courses at two years of age: England and Wales, 1966 - 1977, England (only) 1978 onwards\cite {hpaimmunistationcoverage}.\relax }{table.caption.39}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {15}{\ignorespaces Notifications and deaths of measles in the England and Wales 1940-1988\cite  {hpameaslesnotificationsanddeaths}.\relax }}{52}{table.caption.40}}
+\newlabel{mmrnotifications1989}{{15}{52}{Notifications and deaths of measles in the England and Wales 1940-1988\cite {hpameaslesnotificationsanddeaths}.\relax }{table.caption.40}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {16}{\ignorespaces Notifications of MMR and measles deaths in England and Wales 1989-2011\cite  {hpameaslesnotificationsanddeaths,hpameaslesnotificationsbyage,hpamumpsnotificationsbyage,hparubellanotificationsbyage}. Mumps and rubella became notifiable diseases in 1989.\relax }}{53}{table.caption.41}}
+\newlabel{mmrnotifications}{{16}{53}{Notifications of MMR and measles deaths in England and Wales 1989-2011\cite {hpameaslesnotificationsanddeaths,hpameaslesnotificationsbyage,hpamumpsnotificationsbyage,hparubellanotificationsbyage}. Mumps and rubella became notifiable diseases in 1989.\relax }{table.caption.41}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {17}{\ignorespaces A comparison of the number of measles infections after introducing vaccination. The number of new infections prior to the initial conditions in the model. The number of notified cases in England and Wales\cite  {hpameaslesnotificationsanddeaths,hpameaslesnotificationsbyage}. Observed coverage rates are from England\cite  {hpaimmunistationcoverage}.\relax }}{54}{table.caption.42}}
+\newlabel{tab:priorinitialisationcomparison}{{17}{54}{A comparison of the number of measles infections after introducing vaccination. The number of new infections prior to the initial conditions in the model. The number of notified cases in England and Wales\cite {hpameaslesnotificationsanddeaths,hpameaslesnotificationsbyage}. Observed coverage rates are from England\cite {hpaimmunistationcoverage}.\relax }{table.caption.42}{}}

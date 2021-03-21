@@ -1,0 +1,28 @@
+\contentsline {section}{\numberline {1}Introduction}{1}{section.1}
+\contentsline {section}{\numberline {2}Building the model}{4}{section.2}
+\contentsline {subsection}{\numberline {2.1}Aims}{4}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Assumptions}{6}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}PDE model}{10}{subsection.2.3}
+\contentsline {subsection}{\numberline {2.4}Discretisation}{11}{subsection.2.4}
+\contentsline {subsubsection}{\numberline {2.4.1}Discrete events}{12}{subsubsection.2.4.1}
+\contentsline {subsubsection}{\numberline {2.4.2}ODE model}{14}{subsubsection.2.4.2}
+\contentsline {subsection}{\numberline {2.5}Combining infections}{15}{subsection.2.5}
+\contentsline {subsection}{\numberline {2.6}Solving numerically}{15}{subsection.2.6}
+\contentsline {subsection}{\numberline {2.7}Discussion}{16}{subsection.2.7}
+\contentsline {section}{\numberline {3}Estimating parameters}{18}{section.3}
+\contentsline {subsection}{\numberline {3.1}Loss of maternal immunity}{18}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Vaccination schedules}{19}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}Population parameters}{21}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.4}Disease parameters}{23}{subsection.3.4}
+\contentsline {subsection}{\numberline {3.5}Waning of vaccine derived immunity}{24}{subsection.3.5}
+\contentsline {subsection}{\numberline {3.6}Cost of infection and vaccination}{25}{subsection.3.6}
+\contentsline {subsection}{\numberline {3.7}Initial conditions}{25}{subsection.3.7}
+\contentsline {subsection}{\numberline {3.8}Discussion}{27}{subsection.3.8}
+\contentsline {section}{\numberline {4}Results}{28}{section.4}
+\contentsline {subsection}{\numberline {4.1}Comparison of initial conditions to reality}{28}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Without waning of vaccine derived immunity}{30}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Including waning of vaccine derived immunity}{37}{subsection.4.3}
+\contentsline {section}{\numberline {5}Conclusion}{43}{section.5}
+\contentsline {section}{Acknowledgements}{44}{section*.31}
+\contentsline {section}{References}{45}{section*.32}
+\contentsline {section}{Appendix}{49}{section*.34}

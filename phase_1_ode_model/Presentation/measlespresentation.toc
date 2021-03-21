@@ -1,0 +1,9 @@
+\beamer@endinputifotherversion {3.14pt}
+\beamer@sectionintoc {1}{Introduction}{2}{0}{1}
+\beamer@sectionintoc {2}{Project breakdown}{7}{0}{2}
+\beamer@sectionintoc {3}{Model development}{11}{0}{3}
+\beamer@subsectionintoc {3}{1}{SIR}{12}{0}{3}
+\beamer@subsectionintoc {3}{2}{SVIR}{16}{0}{3}
+\beamer@subsectionintoc {3}{3}{Ideal BSVIR}{24}{0}{3}
+\beamer@subsectionintoc {3}{4}{Realistic BSVIR}{33}{0}{3}
+\beamer@sectionintoc {4}{Conclusions}{41}{0}{4}
